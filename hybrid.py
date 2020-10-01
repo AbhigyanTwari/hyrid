@@ -5,7 +5,7 @@ import requests
 import json
 import sys
 
-def dattim():
+def datetime():
     current = datetime.now()
     print("date and time ", current)
     dt= current.strftime("%d/%m/%Y %H:%M:%S")
@@ -67,7 +67,7 @@ while(True):
     print()
     k = int(input("Enter Your Choice: "))
     if k==1:
-        dattim()
+        datetime()
     elif k==2:
         cNews()
     elif k==3:
